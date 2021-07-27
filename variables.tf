@@ -12,3 +12,13 @@ variable "instance_type" {
   description = "instance type for ec2"
   default     =  "t2.micro"
 }
+
+variable "access_key" {
+  description = "Access Key"
+  default     =  ""
+}
+
+variable "secret_key" {
+  description = "Access Key"
+  default     =  ""
+}
