@@ -1,5 +1,6 @@
 provider "aws" {
-  region = "us-east-2b"
+  version = "~> 3.0"
+  region  = "us-east-1"
 }
 
 resource "aws_instance" "myFirstInstance" {
