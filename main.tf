@@ -1,5 +1,5 @@
 provider "aws" {
-  region = var.aws_region
+  region = "us-east-2b"
 }
 
 resource "aws_instance" "myFirstInstance" {
